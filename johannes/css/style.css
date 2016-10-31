@@ -1,0 +1,45 @@
+body{font-family: 'Ubuntu Condensed', sans-serif;background-color:#E2E2E2}
+	* {box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}
+	address{font-style:normal}
+	img{max-width:100%;hight:auto}
+	li{list-style:none}
+	#menu li{display:inline-block}
+	ul li a{text-decoration:none;color:#277E78;font-weight:bold;letter-spacing:1px;}
+	ul li a:hover{color:#F4690A;}
+	.nav ul li{padding-right:1%}
+	h2{letter-spacing:1px;text-align:center;background-color:;}
+	h1{padding-left:5%}
+	header{background-image:url("../img/jpg");background-size:cover}
+	.container{padding-right:2%;padding-left:2%}
+	.right{float:right;width:61.803%;padding-left:2%;padding-right:2%;background-color:#ffffff;border-bottom:5px double #277E78;}
+	.left{width:38.197%;padding-left:2%;padding-right:2%;}
+	.nav{border-bottom:5px double #277E78;padding-bottom:2%}
+	.clear{clear:both}
+	footer{border-top:5px double #277E78;padding-left:4%;padding-right:4%}
+	footer a{text-decoration:none;color:#277E78;float:right;padding-left:5%}
+	footer a:hover{color:#F4690A}
+	h1{color:#ffffff;text-shadow:1px 2px 1px #000000;}
+	#impressum{border:none}  
+	.left h2 {background-color:#ffffff;box-shadow:1px 1px 5px gray}
+	.right p {text-align:justify}
+	.right h2 {border-bottom:1px solid #E2E2E2}
+	footer small{opacity:0.6}
+
+
+@media only screen and (min-width: 240px) and (max-width: 768px) {
+		.left,.right{clear:both;width:100%}
+		#mobil li{display:none;position:absolute}
+		#menu:hover ul li{display:block;position:relative}
+		#menu{position:fixed;top:0;left:0;background-color:#ffffff;padding:1%;border:1px solid #277E78;border-radius:0px 0px 15px 0px;box-shadow:1px 1px 10px #277E78;}
+		#menu a{font-weight:bold;letter-spacing:2px}
+		.row a i {position:fixed;bottom:0;left:0;background-color:#ffffff;color:#277E78;border:1px double #277E78;box-shadow:1px 1px 10px #277E78;border-radius:0px 15px 0px 0px}
+}
+
+@media only screen and (min-width: 769px){
+
+		#menu > a{display:none}
+		.row a i {display:none}
+		ul li a{padding-right:6%;border-right:2px double #F4690A}
+		
+		li a:last-child{border-right:}
+}
